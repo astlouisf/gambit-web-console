@@ -44,7 +44,7 @@
 ;;----------------------------------------------------------------------------
 
 (##inline-host-declaration 
-"var svg = document.documentElement;
+"var svg = document.getElementById(\"gambit-console\");
 var svgNS = svg.namespaceURI")
 
 (define svg (##inline-host-expression "svg"))
